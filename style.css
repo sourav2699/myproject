@@ -1,0 +1,92 @@
+.bg-img {
+  /* The image used */
+  background-image: url("320kbps.jpg");
+
+  min-height: 600px;
+  min-width: 700px;
+
+
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container { 
+position: fixed;
+  margin: 23px;
+  padding: 5px;
+  width: 550px;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline overline #FF3028;
+  font-size: 13px;
+  font-family: Copperplate Gothic;
+  display:inline-block;
+
+}
+.search{
+ background-image: url('file:///C:/Users/Hp/Downloads/fontawesome-free-5.10.1-desktop/svgs/solid/search.svg');
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: blue;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  max-width: 95.5%;
+  position: absolute;
+  margin: 23px;
+  width: 100%;
+  position: fixed;
+}
+
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Cooper Std Black;
+}
+
+.topnav a:hover {
+  background-color: transparent;
+  color: blue;
+  font-style: italic;
+  font-weight: 1000px;
+}
+.topnav a:focus {
+  font-weight: 2000px;
+  
+   border-radius: 1px yellow  ;
+}
